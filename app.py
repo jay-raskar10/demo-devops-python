@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "<h1>Hello World, This is Jay, this code is updated</h1>"
+    return "<h1>Hello World, This is Jay, this code is updated and also run on windows</h1>"
 
 if __name__ == "__main__":
     app.run()
